@@ -16,3 +16,4 @@ def buscar_usuario(nome_usuario):
 
 if __name__ == "__main__":
     conectar_banco()
+    print(buscar_usuario("admin' OR '1'='1"))  # Exemplo de injeção SQL
